@@ -17,5 +17,5 @@ response = requests.get(URL)
 if response.status_code == 200:
     # get cicle if
     data_dict = json.loads(response.content)
-    #
+    #print in terminall  result 
     print(json.dumps(data_dict, indent= 4))
